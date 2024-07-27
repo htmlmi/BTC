@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight bsc</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* 防止水平滚动 */
+        }
+        body {
+            background: #000;
+            color: #fff;
+            max-width: 750px;
+            margin: 0 auto;
+            scrollbar-width: none; /* 隐藏滚动条 */
+            -ms-overflow-style: none; /* 针对 IE 和 Edge */
+        }
+        .main {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 150px;
+            align-items: center;
+            font-size: 22px;
+            background-image: url(header_bg.jfif);
+            background-size: cover;
+            z-index: 999;
+        }
+        .content {
+            position: relative;
+            margin-top: -70px;
+        }
+        .content video {
+            width: 100%;
+            height: auto;
+        }
+
+        .wenben {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+            position: relative;
+            margin-top: -135px;
+        }
+        .wenben .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wenben2 {
+            background-image: url(wenben_bg.jfif);
+            background-size: cover;
+            margin-top: 30px;
+        }
+        .wenben2 .text{
+            padding: 20px;
+            background: #00000082;
+        }
+
+
+        @media (max-width: 750px) {
+            body {
+                max-width: 100%;
+            }
+            .header {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <!-- Header content -->
+        </div>
+        <div class="content">
+            <video muted autoplay="autoplay" loop="loop">
+                <source src="video.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <div class="wenben">
+            <h2>BSC战斗币唯一龙头</h2>
+            <div class="text">
+                <span>CA:0x0A8c0Ea2D7eb51BC5c27eCb8fd97F6a0cc35FE72</span>
+                <span>WEB:https://www.fightbsc.com</span>                
+                <span>X:https://x.com/fightbsca</span>
+                <span>TG:https://t.me/fightbsca</span>                
+            </div>
+        </div>
+        <div class="wenben2">
+            <div class="text">
+            <span>TAX：1/1 （打入黑洞分红）全部用于分红，无保留。</span>
+            <span>黑洞打入最少1000枚可以享受交易税分红，分红用来加仓回来代币！长期建设，长期共识！</span>
+            <span>请攻击我的心脏，不要攻击我的耳朵，因为我还要倾听人民的声音。特朗普当选会让美国每天购买</span>
+            <span>几千亿的比特币，对加密行业又是一波总统大牛市！支持加密，支持特朗普继续战斗，支持BSC战斗币龙头，一起为加密，为人生，为特朗普而战斗！</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
